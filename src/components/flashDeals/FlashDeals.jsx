@@ -2,7 +2,7 @@ import React from "react"
 import FlashCard from "./FlashCard"
 import "./style.css"
 
-const FlashDeals = ({ productItems, addToCart }) => {
+const FlashDeals = ({ productItems, addToCart }) => {  
   return (
     <>
       <section className='flash'>

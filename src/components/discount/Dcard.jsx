@@ -13,6 +13,7 @@ const Dcard = () => {
     slidesToScroll: 1,
     autoplay: true,
   }
+
   return (
     <>
       <Slider {...settings}>

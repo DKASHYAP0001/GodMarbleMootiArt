@@ -8,7 +8,7 @@ const Wrapper = () => {
       title: "Worldwide Delivery",
       decs: "We offer competitive prices on our 100 million plus product any range.",
     },
-    {
+    {  
       cover: <i class='fa-solid fa-id-card'></i>,
       title: "Safe Payment",
       decs: "We offer competitive prices on our 100 million plus product any range.",

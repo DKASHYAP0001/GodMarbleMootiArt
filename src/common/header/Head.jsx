@@ -1,23 +1,28 @@
 import React from "react"
 
+import { FaFacebook } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
+import { MdAddIcCall } from "react-icons/md";
+
 const Head = () => {
+
   return (
     <>
       <section className='head'>
         <div className='container d_flex'>
           <div className='left row'>
             <i className='fa fa-phone'></i>
-            <label> +88012 3456 7894</label>
+            <label> +91 6378523943</label>
             <i className='fa fa-envelope'></i>
-            <label> support@ui-lib.com</label>
+            <label> godmarble.statuearts@gmail.com</label>
           </div>
           <div className='right row RText'>
-            <label>Theme FAQ"s</label>
-            <label>Need Help?</label>
-            <span>🏳️‍⚧️</span>
+            <label><FaFacebook /></label>
+            <label><IoLogoWhatsapp /></label>
+            <label><MdAddIcCall /></label>
             <label>EN</label>
-            <span>🏳️‍⚧️</span>
-            <label>USD</label>
+            {/* <span>🏳️‍⚧️</span>
+            <label>USD</label> */}
           </div>
         </div>
       </section>

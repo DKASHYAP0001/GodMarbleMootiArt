@@ -7,7 +7,7 @@ const Shop = ({ addToCart, shopItems }) => {
   return (
     <>
       <section className='shop background'>
-        <div className='container d_flex'>
+        <div className='container d_flex'>  
           <Catg />
 
           <div className='contentWidth'>
